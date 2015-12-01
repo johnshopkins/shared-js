@@ -1,6 +1,9 @@
 module.exports = {
 
+  analytics: require("./lib/analytics"),
   cookie: require("./lib/cookie"),
-  modernBrowser: require("./lib/modern-browser")
+  elementResizer: require("./lib/element-resizer"),
+  modernBrowser: require("./lib/modern-browser"),
+  windowResizeWatcher: require("./lib/window-resize-watcher")
 
 };
